@@ -58,5 +58,7 @@ Thumbs.db
 package.json
 package-lock.json
 
-
+# face and demo
 demo.mp4
+10faceVideos/
+face_extracted/
