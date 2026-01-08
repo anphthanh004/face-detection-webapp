@@ -1,0 +1,75 @@
+Project_2:
+  python-process:
+    dowloaded_videos:
+    face_extracted:
+    file:
+      - crud.py
+      - dowload.py
+      - export_embeddings.py
+      - embeddings.npy
+      - extract_faces.npy
+      - find_closet.py
+      - get_embedding.py
+      - run.py
+      - test.py
+  web:
+    admin:
+      node_modules:
+      public:
+      src:
+        components:
+          LoginRegister:
+            - Login.js
+          ManageNWaiting:
+            - FindClosest.js
+            - UserList.js
+            - WaitingList.js
+        utils:
+          - renderPageButton.js
+        file:
+          - App.js
+          - index.js
+    
+    client:
+      node_modules:
+      public:
+      src:
+        components:
+          LoginRegister:
+            - Login.js
+            - Register.js
+          Member:
+            - Member.js
+            - MemberInfo.js
+            - Upload.js
+            - Wallet.js
+      file:
+        - App.js
+        - index.js
+
+    server:
+      controller:
+        - adminController.controller.js
+        - authentication.controller.js
+        - userController.controller.js
+      middleware:
+        - multerConfig.js
+      model:
+        - adminModel.model.js
+        - adminSchema.js
+        - authentication.model.js
+        - transactionSchema.js
+        - uploadVideoSchema.js
+        - userModel.model.js
+        - userSchema.js
+      node_modules:
+      postgres:
+        - postgres.js
+      routes:
+        - adminRoute.js
+        - clientRoute.js
+      utils:
+        - spawnPython.js
+      file: 
+        - index.js
+    Uploads:
